@@ -2,12 +2,12 @@ import comket from "../../comket/html.js";
 
 
 
-export default function OurServices(){
-    let OurServices = comket.div({class:"OurServices",
+export default function Section1(){
+    let Section1 = comket.div({class:"Section1",
                                     children:[
                                         comket.p({text:"Our Services", class:"our"}),
                                         comket.h1({text:"Fostering a playful & engaging learning environment", class:"Fostering"}),
-                                        comket.div({class:"cards-in-OurServices",
+                                        comket.div({class:"cards-in-Section1",
                                         children:[
 
                                             comket.div({class:"User-Experience",children:[
@@ -31,5 +31,5 @@ export default function OurServices(){
                                     ],
                                 })
 
-    return OurServices
+    return Section1
 }

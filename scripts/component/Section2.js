@@ -1,8 +1,8 @@
 import comket from "../../comket/html.js";
 
 
-export default function ExplorePrograms(){
-    let ExplorePrograms = comket.div({class:"ExplorePrograms",
+export default function Section2(){
+    let Section2 = comket.div({class:"Section2",
                                         children:[
 
                                             // ••••••••••••••• ••••••••••••••• Explore •••••••••••••••• ••••••••••••••
@@ -94,5 +94,5 @@ export default function ExplorePrograms(){
                                         ]
                                 })
 
-    return ExplorePrograms
+    return Section2
 }

@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-.OurServices{
+.Section1{
     width: 100% ;
     height: 407px;
     display: flex;
@@ -12,12 +12,12 @@
     justify-content: space-between;
 }
 
-.OurServices .our{
+.Section1 .our{
     font-size: 16px;
     color:#6941C6;
 }
 
-.OurServices .Fostering{
+.Section1 .Fostering{
     width: 768px;
     height: 88px;
     color: #101828;
@@ -26,7 +26,7 @@
 }
 
 
-.OurServices .cards-in-OurServices{
+.Section1 .cards-in-Section1{
     width: calc(100% / 1);
     height: 243px;
     display: flex;
@@ -39,7 +39,7 @@
 /* <<<<<<<<<<<<<<<<<<<< card 1 >>>>>>>>>>>>>>>>>> */
 /* <<<<<<<<<<<<<<<<<<<< card 1 >>>>>>>>>>>>>>>>>> */
 
-.OurServices .cards-in-OurServices 
+.Section1 .cards-in-Section1 
 .User-Experience{
     width: 373px;
     height: 243px;
@@ -52,7 +52,7 @@
 }
 
 
-.OurServices .cards-in-OurServices 
+.Section1 .cards-in-Section1 
 .User-Experience .icon-h1{
     width: 268px;
     height: 48px;
@@ -61,14 +61,14 @@
     justify-content: space-between;
 }
 
-.OurServices .cards-in-OurServices 
+.Section1 .cards-in-Section1 
 .User-Experience .icon-h1 h1{
     letter-spacing: 0.02em;
     color: #FFFFFF;
     font-size: 24px;
 }
 
-.OurServices .cards-in-OurServices 
+.Section1 .cards-in-Section1 
 .User-Experience .pk{
     width: 293px;
     height: 58px;
@@ -81,7 +81,7 @@
     margin-bottom: 25px;
 }
 
-.OurServices .cards-in-OurServices 
+.Section1 .cards-in-Section1 
 .User-Experience {
     color: #FFFFFF;
     font-size: 18px;
@@ -93,7 +93,7 @@
 /* <<<<<<<<<<<<<<<<<<<< card 2 >>>>>>>>>>>>>>>>>> */
 
 
-.OurServices .cards-in-OurServices 
+.Section1 .cards-in-Section1 
 .Web-Development{
     width: 373px;
     height: 243px;
@@ -106,7 +106,7 @@
 }
 
 
-.OurServices .cards-in-OurServices 
+.Section1 .cards-in-Section1 
 .Web-Development .icon-h1{
     width: 288px;
     height: 48px;
@@ -115,14 +115,14 @@
     justify-content: space-between;
 }
 
-.OurServices .cards-in-OurServices 
+.Section1 .cards-in-Section1 
 .Web-Development .icon-h1 h1{
     letter-spacing: 0.02em;
     color: #101828;
     font-size: 24px;
 }
 
-.OurServices .cards-in-OurServices 
+.Section1 .cards-in-Section1 
 .Web-Development .pk{
     width: 293px;
     height: 58px;
@@ -135,7 +135,7 @@
     margin-bottom: 25px;
 }
 
-.OurServices .cards-in-OurServices 
+.Section1 .cards-in-Section1 
 .Web-Development {
     color: #7F56D9;
     font-size: 18px;
@@ -148,7 +148,7 @@
 /* <<<<<<<<<<<<<<<<<<<< card 3 >>>>>>>>>>>>>>>>>> */
 
 
-.OurServices .cards-in-OurServices 
+.Section1 .cards-in-Section1 
 .Marketing{
     width: 373px;
     height: 243px;
@@ -161,7 +161,7 @@
 }
 
 
-.OurServices .cards-in-OurServices 
+.Section1 .cards-in-Section1 
 .Marketing .icon-h1{
     width: 288px;
     height: 48px;
@@ -170,14 +170,14 @@
     justify-content: space-between;
 }
 
-.OurServices .cards-in-OurServices 
+.Section1 .cards-in-Section1 
 .Marketing .icon-h1 h1{
     letter-spacing: 0.02em;
     color: #101828;
     font-size: 24px;
 }
 
-.OurServices .cards-in-OurServices 
+.Section1 .cards-in-Section1 
 .Marketing .pk{
     width: 293px;
     height: 58px;
@@ -190,7 +190,7 @@
     margin-bottom: 25px;
 }
 
-.OurServices .cards-in-OurServices 
+.Section1 .cards-in-Section1 
 .Marketing {
     color: #7F56D9;
     font-size: 18px;
