@@ -1,0 +1,421 @@
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+.nav{
+    width: 1519px;
+    height: 880px;
+    padding: 0 120px 0 120px ;
+    background: rgba(36, 187, 140, 0.02);
+}
+
+.nav .navTop{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgba(128, 128, 128, 0.256); */
+}
+
+.nav .navTop .icon-and-input-and-option{
+    width: 869px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .navTop .icon-and-input-and-option .icon{
+    width: 167px;
+    height: 34.29px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.nav .navTop .icon-and-input-and-option .icon .circle{
+    width: 15px;
+    height: 15px;
+    color: #7f56d900;
+    box-sizing: border-box;
+    border: 6px solid #7F56D9;
+    border-radius: 50px;
+}
+
+.nav .navTop .icon-and-input-and-option .icon .circle1{
+    width: 15px;
+    height: 15px;
+    color: #7f56d900;
+    box-sizing: border-box;
+    border: 6px solid #101828;
+    border-radius: 50px;
+    position: absolute;left: 19.71px;
+    top: 5px;
+    opacity: 0.2;
+}
+
+.nav .navTop .icon-and-input-and-option .icon h1{
+    color: #101828;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.nav .navTop .icon-and-input-and-option .input{
+    width: 367px;
+    height: 44px;
+    padding: 10px 4px 10px 14px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .navTop .icon-and-input-and-option .input input{
+    width: 250px;
+    height: 43px;
+    background-color: rgba#FFFFFF;
+    color: #667085;
+    border: 0;
+    outline: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.nav .navTop .icon-and-input-and-option .input .icon-search{
+    color: #98A2B3;
+    cursor: pointer;
+    scale: 1.3;
+}
+
+.nav .navTop .icon-and-input-and-option .input button{
+    width: 111px;
+    height: 36px;
+    background: #F9F5FF;
+    color: #7F56D9;
+    border-radius: 8px;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav .navTop .icon-and-input-and-option .option{
+    width: 285px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.nav .navTop .icon-and-input-and-option .option button{
+    width: 79px;
+    height: 24px;
+    color: #101828;
+    background-color: #98a2b300;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: all .1s;
+}
+
+.nav .navTop .icon-and-input-and-option .option button:hover{
+    color: #7F56D9;
+}
+
+.nav .navTop .signIn{
+    width: 239px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+.nav .navTop .signIn .sign-in{
+    width: 60px;
+    height: 24px;
+    background-color: #10182800;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #101828;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.nav .navTop .signIn .Create{
+    width: 167px;
+    height: 40px;
+    background: #7F56D9;
+    color: #FFFFFF;
+    border: 1px solid #7F56D9;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #F4EBFF;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+.nav .navLeft-and-navRight{
+    width: 100%;
+    height: 510px;
+    /* background-color: azure; */
+    display: flex;
+    justify-content: space-between;
+    margin:100px 0 0 0 ;
+}
+
+.nav .navLeft{
+    width: 573px;
+    height: 510px;
+    /* background-color: rgb(25, 169, 169); */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.nav .navLeft-and-navRight .navLeft .navLeft-text{position: relative;}
+.nav .navLeft-and-navRight .navLeft .navLeft-text .black, .black2, .black3, .black4{color: #101828;margin-right: 17px;font-size: 64px;}
+.nav .navLeft-and-navRight .navLeft .navLeft-text .black{display: inline-block;}
+.nav .navLeft-and-navRight .navLeft .navLeft-text .black2{position: absolute; }
+.nav .navLeft-and-navRight .navLeft .navLeft-text .black3{position: relative;  left: 360px;}
+.nav .navLeft-and-navRight .navLeft .navLeft-text .black4{position: relative;  left: 220px;}
+.nav .navLeft-and-navRight .navLeft .navLeft-text .purple1{display: inline-block;}
+.nav .navLeft-and-navRight .navLeft .navLeft-text .purple2{position: relative; left: 80px;position: absolute; }
+.nav .navLeft-and-navRight .navLeft .navLeft-text .purple3{position: absolute; }
+.nav .navLeft-and-navRight .navLeft .navLeft-text .purple1, .purple2, .purple3{color: #7F56D9;font-size: 64px;}
+.nav .navLeft-and-navRight .navLeft .navLeft-text p{ color: #646464; font-size: 16px; height: 25px; margin-top: 20px}
+.nav .navLeft-and-navRight .navLeft .navLeft-text .p{position: relative; top: 20px;}
+
+.nav .navLeft-and-navRight .navLeft .navLeft-button{
+    width: 350px;
+    height: 60px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top:36px;
+}
+
+.nav .navLeft-and-navRight .navLeft .navLeft-button .but1{
+    width: 157px;
+    height: 60px;
+    color: #FFFFFF;
+    background: #7F56D9;
+    border: 1px solid #7F56D9;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #F4EBFF;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 16px 28px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.nav .navLeft-and-navRight .navLeft .navLeft-button .but2{
+    width: 157px;
+    height: 60px;
+    color: #6941C6;
+    background: #F4EBFF;
+    border: 1px solid #F4EBFF;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 16px 28px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.nav .navLeft-and-navRight .navLeft .navLeft-button .but2:hover{color:#F4EBFF; background-color:#6941C6;}
+
+.nav .navLeft-and-navRight .navLeft .navLeft-icon{
+    width: 572px;
+    height: 40px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+.nav .navLeft-and-navRight .navLeft .navLeft-icon .ion-1, .ion-2, .ion-3{
+    width: 175px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} 
+
+.nav .navLeft-and-navRight .navLeft .navLeft-icon .ion-1 p, .ion-2 p, .ion-3 p{
+    color: rgba(29, 41, 57, 0.7);
+    font-size: 16px;
+}
+
+
+.nav .navRight{
+    width: 495px;
+    height: 495px;
+    border: 0.765px solid #7F56D9;
+    border-radius: 688.5px;
+    margin:-39px 45px 0 0 ;
+
+    position: relative;
+}
+
+.nav .navRight .circle-purple{
+    width: 495px;
+    height: 495px;
+    background: #7f56d9;
+    border-radius: 50%;
+    position: relative; top: 21px; left: 22px;
+    overflow: hidden;
+}
+
+.nav .navRight .circle-purple img{
+    position: absolute; bottom: 0; left: 50px;
+}
+
+.nav .navRight .Online-Courses{
+    width: 144.72px;
+    height: 189.2px;
+    background: #F5F5F4;
+    border: 0.765px solid #7F56D9;
+    box-shadow: 0px 18.36px 38.25px rgba(0, 0, 0, 0.15);
+    border-radius: 18.36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 18.36px;
+    position: absolute;right: -55px;
+    z-index: 1;
+}
+
+.nav .navRight .Online-Courses h1{font-size: 25px; color: #101828; margin:15px 0 10px 0;}
+.nav .navRight .Online-Courses p{font-size:15px; color: #101828;}
+
+.nav .navRight .Video-Courses{
+    width: 214.16px;
+    height: 90.84px;
+    background: #F5F5F4;
+    border: 0.765px solid #7F56D9;
+    box-shadow: 0px 18.36px 38.25px rgba(0, 0, 0, 0.15);
+    border-radius: 18.36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute; top: 176px; right: 352px;
+    z-index: 1;
+}
+
+.nav .navRight .Video-Courses img{ width: 48px; height: 48px; border-radius: 10px;}
+
+.nav .navRight .Video-Courses .k2{ width: 104px; height: 54.12px; display: flex; flex-direction: column; justify-content: space-between;}
+
+.nav .navRight .Video-Courses .k2 h1{ color: #101828; font-size: 25px;}
+.nav .navRight .Video-Courses .k2 p{ color: #101828; font-size: 15px;}
+
+.nav .navRight .Tutors{
+    width: 164.92px;
+    height: 85.68px;
+    background: #F5F5F4;
+    border: 0.765px solid #7F56D9;
+    box-shadow: 0px 18.36px 38.25px rgba(0, 0, 0, 0.15);
+    border-radius: 18.36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute; top: 392px; left: 376px;
+    z-index: 1;
+}
+
+.nav .navRight .Tutors img{ width: 48px; height: 48px; border-radius: 10px;}
+.nav .navRight .Tutors .k50{ width: 67px; height: 48px; display: flex; flex-direction: column-reverse; justify-content: space-between; }
+.nav .navRight .Tutors .k2 p{ color: #101828; font-size: 15px;}
+.nav .navRight .Tutors .k2 h1{ color: #101828; font-size: 25px;}
+
+.nav .navRight .circle{
+    width: 42.84px;
+    height: 42.84px;
+    background: #7F56D9;
+    border: 0.765px solid #7F56D9;
+    border-radius: 50%;
+    position: absolute; top:436px; left:32px;
+    z-index: 1;
+}
+
+.nav .nav-bottom{
+    width: 95%;
+    height: 70px;
+    margin-top: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .nav-bottom .Collaboration{
+    width: 178px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.nav .nav-bottom .Collaboration h1{color:#7F56D9; }
+.nav .nav-bottom .Collaboration p{color:#101828; font-size: 20px;}
+.nav .nav-bottom .links{
+    width: 950px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav .nav-bottom .links img{cursor: pointer;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

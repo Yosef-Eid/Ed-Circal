@@ -1,0 +1,29 @@
+
+
+
+.Section4{
+    width: 1518px;
+    height: 546.29px;
+    background: #F9FAFB;
+    padding: 96px 0px;
+    margin-top: 160px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    flex-direction: column;
+}
+
+.Section4 h1{
+    width: 1216px;
+    height: 120px;
+    text-align: center;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    color: #101828; 
+    margin-top: 37px;
+}
+
+.Section4 img{margin-top: 32px;}
+.Section4 h4{margin-top: 16px; color: #101828; font-size: 18px; line-height: 28px;}
+.Section4 p{margin-top: 4px; color: #667085;; font-size: 16px; line-height: 24px;}

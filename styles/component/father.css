@@ -1,0 +1,14 @@
+.father{
+    width:1519px;
+    height: 3640.29px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    padding: 0 120px 0 120px ;
+    position: relative;
+}
+
+*{
+    box-sizing: border-box;
+}

@@ -1,0 +1,371 @@
+
+
+.Section2{
+    width: 100%;
+    height: 803px;
+    margin-top: 80px;
+}
+
+.Section2 .Explore{ color: #6941C6; font-size: 16px;}
+
+.Section2 .OurMost{
+    color: #101828;
+    font-size: 36px;
+    letter-spacing: -0.02em;
+    margin-top: 12px;
+}
+
+.Section2 .Lets{
+    color: #667085;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.Section2 .cards{
+    width: 100%;
+    height: 553px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Section2 .cards
+.figmaCard,
+.LearnCard,
+.BuildingCard{
+    width: 384px;
+    height: 553px;
+    box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+    border-radius: 8px;
+    padding: 24px 24px 32px;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ••••••••••••••• •••••••••••• card 1 •••••••••••••••• •••••••••••
+••••••••••••••• ••••••••••••••• card 1 •••••••••••••••• ••••••••••••••
+••••••••••••••• ••••••••••••••• card 1 •••••••••••••••• •••••••••••••• */
+
+.Section2 .cards
+.figmaCard .text{ width: 336px; height: 225px;}
+
+.Section2 .cards
+.figmaCard .text .Design{
+    color: #6941C6;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.Section2 .cards
+.figmaCard .text .figma-icon{
+    width: 336px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.Section2 .cards
+.figmaCard .text .figma-icon h1{
+    color: #101828;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+.Section2 .cards
+.figmaCard .text .textP{
+    width: 336px;
+    height: 48px;
+    font-size: 16px;
+    color: #667085;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.Section2 .cards
+.figmaCard .text img{ margin-top: 12px;}
+
+.Section2 .cards
+.figmaCard .text .bottom{
+    width: 336px;
+    height: 40px;
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Section2 .cards
+.figmaCard .text .bottom .profile{
+    width: 142px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Section2 .cards
+.figmaCard .text .bottom .profile img{ margin-top: 0px;}
+
+.Section2 .cards
+.figmaCard .text .bottom .profile .name{ width: 90px; height: 40px;}
+
+.Section2 .cards
+.figmaCard .text .bottom .profile .name h2{
+    color: #101828;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.Section2 .cards
+.figmaCard .text .bottom .profile .name p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667085;
+}
+
+.Section2 .cards
+.figmaCard .text .bottom .h17{ font-size: 26px; color: #7F56D9;}
+
+
+
+
+
+
+/* ••••••••••••••• •••••••••••• card 2 •••••••••••••••• •••••••••••
+••••••••••••••• ••••••••••••••• card 2 •••••••••••••••• ••••••••••••••
+••••••••••••••• ••••••••••••••• card 2 •••••••••••••••• •••••••••••••• */
+
+.Section2 .cards
+.LearnCard .text{ width: 336px; height: 225px;}
+
+.Section2 .cards
+.LearnCard .text .Design{
+    color: #6941C6;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.Section2 .cards
+.LearnCard .text .figma-icon{
+    width: 336px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.Section2 .cards
+.LearnCard .text .figma-icon h1{
+    color: #101828;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+.Section2 .cards
+.LearnCard .text .textP{
+    width: 336px;
+    height: 48px;
+    font-size: 16px;
+    color: #667085;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.Section2 .cards
+.LearnCard .text img{ margin-top: 12px;}
+
+.Section2 .cards
+.LearnCard .text .bottom{
+    width: 336px;
+    height: 40px;
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Section2 .cards
+.LearnCard .text .bottom .profile{
+    width: 142px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Section2 .cards
+.LearnCard .text .bottom .profile img{ margin-top: 0px;}
+
+.Section2 .cards
+.LearnCard .text .bottom .profile .name{ width: 90px; height: 40px;}
+
+.Section2 .cards
+.LearnCard .text .bottom .profile .name h2{
+    color: #101828;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.Section2 .cards
+.LearnCard .text .bottom .profile .name p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667085;
+}
+
+.Section2 .cards
+.LearnCard .text .bottom .h17{ font-size: 26px; color: #7F56D9;}
+
+
+
+
+
+
+/* ••••••••••••••• •••••••••••• card 3 •••••••••••••••• •••••••••••
+••••••••••••••• ••••••••••••••• card 3 •••••••••••••••• ••••••••••••••
+••••••••••••••• ••••••••••••••• card 3 •••••••••••••••• •••••••••••••• */
+
+.Section2 .cards
+.BuildingCard .text{ width: 336px; height: 225px;}
+
+.Section2 .cards
+.BuildingCard .text .Design{
+    color: #6941C6;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.Section2 .cards
+.BuildingCard .text .figma-icon{
+    width: 336px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.Section2 .cards
+.BuildingCard .text .figma-icon h1{
+    color: #101828;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+.Section2 .cards
+.BuildingCard .text .textP{
+    width: 336px;
+    height: 48px;
+    font-size: 16px;
+    color: #667085;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.Section2 .cards
+.BuildingCard .text img{ margin-top: 12px;}
+
+.Section2 .cards
+.BuildingCard .text .bottom{
+    width: 336px;
+    height: 40px;
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Section2 .cards
+.BuildingCard .text .bottom .profile{
+    width: 142px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Section2 .cards
+.BuildingCard .text .bottom .profile img{ margin-top: 0px;}
+
+.Section2 .cards
+.BuildingCard .text .bottom .profile .name{ width: 90px; height: 40px;}
+
+.Section2 .cards
+.BuildingCard .text .bottom .profile .name h2{
+    color: #101828;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.Section2 .cards
+.BuildingCard .text .bottom .profile .name p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667085;
+}
+
+.Section2 .cards
+.BuildingCard .text .bottom .h17{ font-size: 26px; color: #7F56D9;}
+
+
+
+
+/*••••••••••••••• ••••••••••••••• button •••••••••••••••• •••••••••••••• */
+
+.Section2 button{
+    width: 173px;
+    height: 40px;
+    background: #F9FAFB;
+    color: #101828;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    padding: 10px 16px;
+    margin-top: 40px;
+    margin-left: 43%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
